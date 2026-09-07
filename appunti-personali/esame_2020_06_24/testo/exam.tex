@@ -1,0 +1,186 @@
+% \documentclass[11pt,a4]{article}
+
+% \usepackage[margin=2cm]{geometry}
+
+% \usepackage{amsmath}
+% \usepackage{url}
+% \usepackage{amsfonts}
+% \usepackage{amssymb}
+
+% \usepackage[utf8]{inputenc}
+
+% % Default fixed font does not support bold face
+% \DeclareFixedFont{\ttb}{T1}{txtt}{bx}{n}{10} % for bold
+% \DeclareFixedFont{\ttm}{T1}{txtt}{m}{n}{10}  % for normal
+
+% % Custom colors
+% \usepackage{color}
+% \definecolor{deepblue}{rgb}{0,0,0.5}
+% \definecolor{deepred}{rgb}{0.6,0,0}
+% \definecolor{deepgreen}{rgb}{0,0.5,0}
+
+% \usepackage{listings}
+
+% % Python style for highlighting
+% \newcommand\pythonstyle{\lstset{
+% language=Python,
+% basicstyle=\ttm,
+% otherkeywords={self},             % Add keywords here
+% keywordstyle=\ttb\color{deepblue},
+% emph={MyClass,__init__},          % Custom highlighting
+% emphstyle=\ttb\color{deepred},    % Custom highlighting style
+% stringstyle=\color{deepgreen},
+% frame=tb,                         % Any extra options here
+% showstringspaces=false            %
+% }}
+
+
+% % Python environment
+% \lstnewenvironment{python}[1][]
+% {
+% \pythonstyle
+% \lstset{#1}
+% }
+% {}
+
+% % Python for external files
+% \newcommand\pythonexternal[2][]{{
+% \pythonstyle
+% \lstinputlisting[#1]{#2}}}
+
+% % Python for inline
+% \newcommand\pythoninline[1]{{\pythonstyle\lstinline!#1!}}
+
+
+% \usepackage{collectbox}
+
+% \newcommand{\mybox}[2]{$\quad$\fbox{
+% \begin{minipage}{#1cm}
+% \hfill\vspace{#2cm}
+% \end{minipage}
+% }}
+
+
+% \usepackage{fancyhdr}
+% \pagestyle{fancy}
+% \rhead{Programmazione 1 - Esame del 24 giugno 2020}
+
+% \include{book_header}
+
+%\begin{document}
+\thispagestyle{empty}
+\hrule
+\begin{center}
+   {\Large {\bf Programmazione 1 \hspace{3cm} Esame del 24 giugno 2020}}
+\end{center}
+{\bf Cognome: }\hspace{2.5cm} {\bf Nome: } \hspace{2.5cm} {\bf Matricola: } \hspace{2.5cm} {\bf Postazione: } \\\
+\hrule
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Prima Parte}
+Nella prima parte dell'esame dovete usare esclusivamente le funzioni ricorsive e le {\tt pairlists},
+come studiate nella prima parte del corso. Dovete importare la libreria {\tt pairlists} che viene fornita nella vostra
+cartella d'esame. Dovete svolgere i seguenti esercizi, completando il file {\tt soluzione\_template.py}
+e {\underline {\bf utilizzando le funzioni di test che trovate nel blocco {\tt main} in coda al file}}.
+\begin{enumerate}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item {\bf (Punti 3)} Scrivere una funzione {\tt Norma(x, t)} che prende in input una lista di numeri {\tt x} (ovvero un vettore di $\mathbb{R}^n$) e un intero $t$ e restituisce la norma del vettore. Se $t=0$ restituisce la norma infinito, ovvero $\max_{i}|x_i|$; se $t=1$ calcola la norma 1, ovvero $\sum_i |x_i|$;
+se $t=2$ la norma 2, ovvero $\sqrt{\sum_i x_i^2}$.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item {\bf (Punti 4)} Scrivere una funzione {\tt Integrale(F, a, b, dx)} che calcoli l'integrale definito di una funzione $f$ tra i limiti $a$ e $b$, che può essere approssimato numericamente usando la formula:
+    $$
+    \int_a^b f(x)\, dx = [f(a+dx/2) + f(a+dx/2+dx) + f(a+ dx/2 + 2dx )+ ...]dx
+    $$
+per valori piccoli di $dx$.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item {\bf (Punti 6)} Scrivere una funzione che implementa l'algoritmo di {\it merge-sort} utilizzando le {\tt pairslist}.
+La funzione {\tt MergeSort(Ls, Compare)} da implementare, prende in input una lista di elementi (lista di tipo {\tt pairslist}),
+e una predicato di confronto {\tt Compare(x, y)} tra due elementi della lista,
+e restituisce in output una nuova lista ordinata in base alla funzione di confronto {\tt Compare(x, y)} data in input.
+\end{enumerate}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Seconda Parte}
+Nella seconda parte dell'esame potete usare qualsiasi libreria di Python.
+
+Si consideri un file di testo, chiamato {\tt dpc-covid19-ita-regioni-latest.csv}, che contiene i
+dati della protezione civile riguardo l'epidemia in corso, rilasciati il 21 giugno 2020 su GitHub.
+Per ogni riga del file, tranne la prima che contiene la descrizione di ogni campo, vengono riportate le seguenti informazioni:
+\begin{verbatim}
+ 0, data: data a cui si riferiscono le informazioni
+ 1, stato: codice dello stato
+ 2, codice_regione: codice numerico per la regione
+ 3, denominazione_regione: nome della regione
+ 4, lat: latitudine
+ 5, long: longitudine
+ 6, ricoverati_con_sintomi: numero di pazienti ricoverati con sintomi
+ 7, terapia_intensiva: numero di pazienti in terapia intensiva
+ 8, totale_ospedalizzati: numero di pazienti ospedalizzati
+ 9, isolamento_domiciliare:	numero di pazienti in isolamento domiciliare
+10, totale_positivi: numero di pazienti positivi in totale dall'inizio dell'epidemia
+11, variazione_totale_positivi:	numero di pazienti positivi rispetto al giorno precedente
+12, nuovi_positivi: numero di nuovi pazienti positivi per la data di riferimento
+13, dimessi_guariti: numero di pazienti guariti
+14, deceduti: numero di pazienti deceduti
+15, totale_casi: totale dei casi registrati
+16, tamponi: totale dei tamponi eseguiti
+17, casi_testati: numero totale dei casi testati
+18, note_it: eventuali note in italiano
+19, note_en: eventuali note in inglese
+\end{verbatim}
+
+
+\begin{enumerate}
+\setcounter{enumi}{3}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item {\bf (Punti 2)}
+Si scriva una classe {\tt Region} con i seguenti attributi: {\tt Data}, {\tt Nome}, {\tt TerapiaIntensiva}, {\tt NuoviPositivi}, {\tt Deceduti}, {\tt Totale}, e  {\tt Tamponi}.
+Tranne il nome che è una stringa, tutti gli altri attributi sono dei numeri interi.
+La classe deve contenere almeno un metodo costruttore {\tt \_\_init\_\_(self, row)}, che data una riga letta dal fila,
+inizializza un oggetto corrispondente di tipo {\tt Region}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item {\bf (Punti 1)} Si implementi il metodo {\tt \_\_str\_\_(self)}, che restituisce una stringa contenente i primi tre attributi, nel formato seguente:
+
+{\tt "Regione: Lombardia, Totale: X, Deceduti: X, Tamponi: X"}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item {\bf (Punti 2)} Si implementi il metodo {\tt \_\_lt\_\_(self, other)}, che restituisce True se la regione {\tt self} ha avuto
+un rapporto tra il numero di morti e il totale dei pazienti infetti inferiore allo stesso rapporto dell'altra regione codificata
+nell'oggetto {\tt other}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item {\bf (Punti 3)} Si scriva una funzione {\tt Parse(filename)}, che prende in input il nome di un file,
+e restituisce una lista di oggetti di tipo {\tt Region}, un oggetto per ogni riga del file (a parte la prima riga di intestazione).
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item {\bf (Punti 3)} Si scriva una funzione {\tt TopRegion(Ls, n=5)}, che prende in input una lista di oggetti di tipo {\tt Region}
+come restituiti dalla funzione {\tt Parse}, e che restituisce le prime $n$ regioni con il maggior rapporto tra numeri di morti e pazienti infetti.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item {\bf (Punti 3)} Si scriva una funzione {\tt ParseFiles(names)} che prende in input una lista di nomi di files che devono
+essere letti. La funzione per ogni nome della lista, deve richiamare la funzione {\tt Parse}, leggere il contenuto del file ottenendo
+una lista di oggetti di tipo {\tt Region}, e deve restituire alla fine la lista complessiva di oggetti letti dai file di input.
+
+Nella funzione di test, si chiede di leggere cinque file, dello stesso tipo del file {\tt .csv} descritto sopra,
+ma che si riferiscono a date diverse.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item {\bf (Punti 5)} Si scrive una funzione {\tt ComputeAverage(Ls)}, che prende in input una lista di oggetti di tipo {\tt Region},
+letti per esempio con la funzione {\tt ParseFiles(names)}, e calcola, per ogni regione, la media aritmetica giornaliera dei nuovi casi registrati.
+La funzione deve restituire un dizionario con una chiave per ogni regione, a cui corrisponde come valore la media giornaliera calcolata di nuovi casi.
+
+
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\end{document}
