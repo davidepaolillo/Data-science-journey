@@ -31,6 +31,11 @@ import seaborn as sns
 
 fig, ax = plt.subplots()
 
+
+"plt.subplots() restituisce una tupla di 2 elementi: una Figure e un Axes; plt.subplots() crea insieme la cornice (fig, il foglio) e il grafico vero e proprio (ax, il riquadro con dati/assi)"
+fig, ax = plt.subplots()
+
+
 x = [1, 2, 3, 4, 5]
 y = [10, 25, 15, 30, 20]
 ax.plot(x, y)   # disegna una linea che collega i punti (x,y)
@@ -39,10 +44,15 @@ plt.savefig("modulo3_01_base.png")
 plt.close()   # libera la memoria - buona abitudine quando generi molti grafici
 
 
+"disegni sempre su ax (ax.plot(), ax.bar(), ax.set_title(), ecc.) — fig la uso raramente, solo per cose che riguardano l'intero foglio (es. fig.suptitle() per un titolo generale, o fig.savefig() che in pratica equivale a plt.savefig()"
+
+
+
 # ============================================================
 # 2. TITOLI, ETICHETTE, LEGENDA, PIU' LINEE INSIEME
 # ============================================================
-fig, ax = plt.subplots()
+
+
 
 x = [1, 2, 3, 4, 5]
 y1 = [10, 25, 15, 30, 20]
@@ -109,12 +119,12 @@ fig, axes = plt.subplots(1, 3, figsize=(16, 4))
 # parametro per le barre d'errore (si chiama "errorbar" nelle versioni
 # recenti di Seaborn, "ci" in quelle piu' vecchie - nomi diversi a seconda
 # della versione installata). Aggregando prima a mano, il problema non si pone.
-ricavo_per_negozio = df.groupby("negozio")["ricavo"].mean().reset_index()
-sns.barplot(data=ricavo_per_negozio, x="negozio", y="ricavo", ax=axes[0])
+ricavo_per_negozio = df.groupby("negozio")["ricavo"].mean().reset_index() #per ritrasformare la series in un df, cosi poi posso
+sns.barplot(data=ricavo_per_negozio, x="negozio", y="ricavo", ax=axes[0]) #passsargli il df con 2 colonne e dirlgi x="...", y="..."
 axes[0].set_title("Ricavo medio per negozio")
 axes[0].tick_params(axis="x", rotation=20)
 
-sns.boxplot(data=df, x="categoria", y="ricavo", ax=axes[1])
+sns.boxplot(data=df, x="categoria", y="ricavo", ax=axes[1])  #con ax=.. gli sto dicendo dove disegnare
 axes[1].set_title("Distribuzione ricavo per categoria")
 axes[1].tick_params(axis="x", rotation=20)
 
@@ -139,7 +149,7 @@ plt.close()
 # (valore tra -1 e 1: vicino a 1 = correlazione positiva forte, vicino a
 # -1 = correlazione negativa forte, vicino a 0 = nessuna relazione lineare)
 
-correlazioni = df[["prezzo_unitario", "quantita", "sconto_pct", "ricavo"]].corr()
+correlazioni = df[["prezzo_unitario", "quantita", "sconto_pct", "ricavo"]].corr() # con la prima parte gli dico: prendi solo queste 4 colonne
 print(correlazioni)
 
 plt.figure(figsize=(6, 5))
@@ -183,3 +193,28 @@ Correlazione          -> df.corr() + sns.heatmap(annot=True)
 #    si distribuiscono le quantita' vendute per transazione
 #
 # Scrivi qui sotto il tuo codice:
+
+    
+figuree, axx = plt.subplots(1,3, figsize= (16,4))
+ricavi_tot_categorie = df.groupby("categoria")["ricavo"].sum().reset_index()
+sns.barplot(data=ricavi_tot_categorie, x= "categoria", y="ricavo" ,ax=axx[0])
+axx[0].set_title("Ricavi per categoria")
+
+
+sns.scatterplot(data=df, x="prezzo_unitario",y="ricavo",hue="negozio", ax=axx[1])
+axx[1].set_title("scatter")
+
+sns.histplot(data=df, x="quantita", ax=axx[2])
+axx[2].set_title("quantita")
+
+
+plt.tight_layout()
+
+fig.savefig("grafici-esercizio.png")
+plt.close()
+
+
+
+
+
+
