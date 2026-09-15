@@ -1,0 +1,401 @@
+Id,Superficie_mq,Piano,NumeroBagni,AnnoCostruzione,Quartiere,TipoRiscaldamento,Giardino,Ascensore,Prezzo
+1,107.4,2,2,2009.0,Periferia Sud,Pompa di calore,No,No,182339.0
+2,85.2,0,2,2013.0,Zona Industriale,Centralizzato,No,No,165485.0
+3,112.7,4,1,1984.0,Periferia Sud,Centralizzato,Si,No,216683.0
+4,143.3,6,3,2019.0,Periferia Sud,Autonomo,No,No,284742.0
+5,81.8,5,2,1979.0,Centro,Autonomo,No,Si,195529.0
+6,81.8,0,1,2020.0,Zona Universitaria,Centralizzato,Si,No,133230.0
+7,145.3,4,1,2012.0,Periferia Nord,Autonomo,No,No,290991.0
+8,116.9,4,2,1977.0,Zona Industriale,Centralizzato,Si,No,188229.0
+9,73.6,5,1,2009.0,Zona Universitaria,Centralizzato,No,Si,163734.0
+10,109.0,2,2,1986.0,Periferia Sud,Centralizzato,No,No,166772.0
+11,73.8,4,1,1971.0,Centro,Autonomo,No,No,185904.0
+12,,6,2,2017.0,Zona Universitaria,Autonomo,Si,No,159567.0
+13,98.5,4,1,1969.0,Zona Universitaria,Centralizzato,No,No,169459.0
+14,23.0,4,3,2017.0,Centro,Autonomo,No,No,104506.0
+15,29.6,4,1,2013.0,Periferia Nord,Centralizzato,,Si,60334.0
+16,70.3,2,1,1966.0,Zona Universitaria,Centralizzato,No,No,151554.0
+17,54.6,0,2,1961.0,Centro,,No,No,129374.0
+18,101.0,4,2,1971.0,Zona Industriale,Autonomo,No,No,188639.0
+19,58.2,8,3,1966.0,Periferia Nord,Pompa di calore,No,No,133612.0
+20,40.6,0,1,1959.0,Centro,Centralizzato,No,Si,115296.0
+21,141.3,2,3,2014.0,Zona Universitaria,Autonomo,No,Si,293608.0
+22,82.1,3,2,1971.0,Periferia Nord,Autonomo,No,No,176761.0
+23,92.4,0,2,1999.0,Periferia Sud,Centralizzato,No,No,157816.0
+24,40.1,0,1,1963.0,Centro,Autonomo,No,No,103884.0
+25,70.9,7,2,2013.0,Centro,Autonomo,Si,Si,185173.0
+26,93.9,1,1,1996.0,Periferia Sud,Autonomo,Si,No,191369.0
+27,49.7,7,2,1978.0,Periferia Sud,Pompa di calore,Si,No,124946.0
+28,103.1,6,2,1985.0,Periferia Sud,Pompa di calore,Si,No,199186.0
+29,69.0,1,2,2001.0,Zona Universitaria,Centralizzato,No,Si,130727.0
+30,79.8,5,2,1956.0,Periferia Sud,Autonomo,No,No,153446.0
+31,68.9,5,3,1978.0,Centro,Autonomo,No,No,157051.0
+32,154.8,2,3,1960.0,Periferia Nord,Centralizzato,No,Si,316132.0
+33,89.5,1,1,1982.0,Zona Industriale,Centralizzato,,No,131202.0
+34,53.0,0,1,1955.0,Zona Universitaria,Autonomo,No,No,97541.0
+35,118.8,5,1,1981.0,Periferia Sud,Centralizzato,No,No,206526.0
+36,47.3,4,3,2000.0,Periferia Nord,,No,No,99713.0
+37,97.3,8,2,2007.0,Periferia Nord,Centralizzato,No,Si,214399.0
+38,21.4,0,3,1975.0,Zona Universitaria,Centralizzato,Si,Si,60741.0
+39,43.5,6,2,1995.0,Zona Universitaria,,No,No,110537.0
+40,96.9,4,2,1978.0,Periferia Sud,Autonomo,,Si,167862.0
+41,115.8,4,3,1953.0,Zona Universitaria,Centralizzato,No,No,245281.0
+42,96.0,1,2,1962.0,Zona Universitaria,,Si,Si,201367.0
+43,86.0,2,1,1988.0,Centro,Autonomo,No,No,192166.0
+44,79.5,6,1,1964.0,Periferia Nord,Centralizzato,No,No,166419.0
+45,38.3,5,1,1978.0,Centro,Centralizzato,Si,No,109378.0
+46,64.8,1,3,1978.0,Centro,Centralizzato,No,No,180336.0
+47,73.9,5,2,1981.0,Zona Universitaria,Centralizzato,No,No,134576.0
+48,127.0,1,2,1951.0,Periferia Nord,Pompa di calore,No,No,234801.0
+49,102.0,1,1,1996.0,Periferia Sud,Pompa di calore,Si,Si,180928.0
+50,28.3,1,1,1971.0,Centro,Autonomo,No,No,87173.0
+51,101.3,2,2,,Periferia Nord,Pompa di calore,No,No,193900.0
+52,76.5,1,2,2016.0,Centro,Autonomo,No,No,194985.0
+53,66.3,3,2,2005.0,Centro,Autonomo,Si,No,183676.0
+54,111.4,8,3,1970.0,Periferia Sud,Centralizzato,No,No,212142.0
+55,126.1,5,3,,Periferia Nord,Centralizzato,No,No,263916.0
+56,122.6,0,1,,Periferia Sud,Centralizzato,No,Si,242668.0
+57,60.6,7,1,1955.0,Centro,Pompa di calore,No,No,126028.0
+58,79.2,6,3,1968.0,Centro,Centralizzato,Si,No,187352.0
+59,101.6,2,2,2006.0,Periferia Nord,Centralizzato,No,Si,190702.0
+60,124.1,0,2,2018.0,Periferia Sud,Autonomo,Si,No,221499.0
+61,73.2,4,2,1952.0,Periferia Sud,Pompa di calore,No,Si,125340.0
+62,83.5,3,1,1950.0,Periferia Nord,Pompa di calore,Si,No,161397.0
+63,51.3,7,2,2007.0,Periferia Nord,Pompa di calore,No,No,140754.0
+64,48.1,0,1,1987.0,Zona Universitaria,Autonomo,No,No,100373.0
+65,118.4,0,1,1964.0,Centro,Autonomo,No,No,238556.0
+66,137.5,3,2,1983.0,Periferia Nord,Autonomo,Si,No,273044.0
+67,87.5,7,1,2010.0,Zona Universitaria,Autonomo,No,Si,151640.0
+68,125.1,4,1,1984.0,Periferia Sud,Autonomo,Si,No,211652.0
+69,102.7,1,2,2013.0,Periferia Nord,Pompa di calore,No,No,169536.0
+70,67.4,5,1,1974.0,Zona Industriale,Centralizzato,,Si,86135.0
+71,102.6,4,1,1973.0,Zona Universitaria,Autonomo,No,Si,187175.0
+72,143.8,1,1,1961.0,Periferia Nord,Autonomo,No,Si,276905.0
+73,88.7,2,3,1967.0,Periferia Sud,Autonomo,No,Si,128444.0
+74,,8,1,1964.0,Periferia Sud,Autonomo,Si,No,256689.0
+75,-1.7,6,1,1976.0,Periferia Nord,Autonomo,No,No,30000.0
+76,118.8,6,2,2021.0,Periferia Nord,Autonomo,No,Si,249401.0
+77,,5,2,2009.0,Periferia Nord,Pompa di calore,No,No,213626.0
+78,79.5,7,1,1995.0,Periferia Sud,,Si,Si,155616.0
+79,93.2,3,1,1966.0,Periferia Nord,Autonomo,No,No,173774.0
+80,20.4,7,3,2002.0,Zona Universitaria,Centralizzato,No,No,52342.0
+81,82.3,3,3,1957.0,Periferia Sud,Pompa di calore,No,Si,142016.0
+82,102.5,7,1,1976.0,Centro,Autonomo,No,No,202159.0
+83,141.7,8,3,1995.0,Periferia Sud,Autonomo,No,No,291249.0
+84,71.9,2,2,1999.0,Periferia Nord,Pompa di calore,Si,Si,151450.0
+85,61.7,2,1,2020.0,Periferia Sud,Autonomo,Si,Si,125863.0
+86,72.4,1,3,1952.0,Periferia Sud,Centralizzato,,No,121298.0
+87,122.0,2,1,2013.0,Centro,Centralizzato,Si,No,253006.0
+88,101.5,2,2,1993.0,Periferia Nord,Autonomo,,No,200842.0
+89,71.5,4,1,2002.0,Centro,Autonomo,No,No,166359.0
+90,108.0,4,1,1973.0,Centro,Pompa di calore,Si,No,218094.0
+91,93.4,1,1,2009.0,Periferia Nord,Autonomo,Si,No,170794.0
+92,123.9,5,3,1952.0,Periferia Nord,Autonomo,Si,No,228309.0
+93,65.4,4,1,,Zona Industriale,Centralizzato,,No,82519.0
+94,78.5,5,1,1995.0,Periferia Nord,Centralizzato,No,Si,135013.0
+95,76.3,0,2,1964.0,Periferia Nord,Autonomo,No,No,147370.0
+96,38.8,4,3,1974.0,Periferia Sud,Pompa di calore,No,No,108481.0
+97,100.4,8,1,2020.0,Centro,Autonomo,Si,Si,239235.0
+98,99.1,1,3,1966.0,Zona Industriale,Pompa di calore,No,No,170117.0
+99,90.2,0,2,1958.0,Periferia Sud,Pompa di calore,Si,Si,166906.0
+100,81.8,8,1,1987.0,Zona Universitaria,Centralizzato,No,No,176938.0
+101,40.5,8,2,1997.0,Centro,Centralizzato,No,No,120396.0
+102,75.3,8,1,2009.0,Periferia Nord,,No,Si,182138.0
+103,78.0,5,2,2012.0,Periferia Nord,Autonomo,No,Si,154240.0
+104,61.9,7,3,1951.0,Zona Universitaria,Centralizzato,No,No,149041.0
+105,84.4,0,1,2021.0,Centro,Autonomo,,No,207273.0
+106,104.1,3,3,1960.0,Periferia Nord,Autonomo,No,Si,172603.0
+107,156.0,0,1,2013.0,Zona Industriale,Autonomo,Si,No,260417.0
+108,96.1,7,3,2021.0,Periferia Nord,Pompa di calore,No,Si,212729.0
+109,99.0,0,1,1970.0,Periferia Nord,,Si,No,177297.0
+110,87.4,2,1,1967.0,Centro,Autonomo,Si,No,196041.0
+111,22.8,3,3,2013.0,Zona Industriale,Autonomo,,No,57905.0
+112,89.1,7,2,1987.0,Centro,Centralizzato,No,No,215967.0
+113,92.1,5,1,1981.0,Zona Universitaria,Centralizzato,,No,188999.0
+114,1762.0,6,1,1960.0,Zona Universitaria,Autonomo,No,No,329586.0
+115,83.3,7,2,1994.0,Centro,Centralizzato,No,Si,192480.0
+116,100.6,1,2,1982.0,Periferia Sud,Centralizzato,Si,Si,186766.0
+117,,7,1,1990.0,Centro,,Si,Si,219676.0
+118,49.1,2,2,1957.0,Periferia Nord,Autonomo,No,No,109212.0
+119,130.0,6,3,1960.0,Zona Universitaria,Centralizzato,No,Si,271160.0
+120,116.3,2,2,2000.0,Zona Universitaria,Centralizzato,No,No,256455.0
+121,117.7,6,2,1990.0,Periferia Sud,Pompa di calore,No,No,233243.0
+122,58.2,1,1,1966.0,Periferia Sud,Centralizzato,Si,Si,110118.0
+123,139.1,5,3,1995.0,Centro,Centralizzato,No,No,327541.0
+124,40.9,2,3,1981.0,Centro,Autonomo,No,No,124670.0
+125,110.5,2,2,2003.0,Centro,Pompa di calore,Si,No,262790.0
+126,166.7,8,2,1969.0,Centro,Centralizzato,No,No,337750.0
+127,55.3,6,2,1982.0,Periferia Nord,Autonomo,No,No,122487.0
+128,70.2,4,1,1989.0,Periferia Nord,Centralizzato,Si,No,143815.0
+129,93.5,6,2,1981.0,Periferia Nord,Autonomo,No,Si,201466.0
+130,72.4,8,2,1951.0,Centro,Autonomo,,No,189031.0
+131,35.7,0,1,1982.0,Periferia Sud,Pompa di calore,Si,No,75922.0
+132,92.4,6,3,1979.0,Zona Universitaria,Centralizzato,No,Si,199629.0
+133,52.8,5,1,1982.0,Periferia Nord,Centralizzato,Si,No,98059.0
+134,,8,1,,Zona Industriale,Autonomo,No,Si,173357.0
+135,57.8,0,2,1971.0,Zona Universitaria,Pompa di calore,No,No,123434.0
+136,144.2,3,2,2015.0,Centro,Autonomo,No,Si,290529.0
+137,62.6,8,2,1987.0,Zona Universitaria,Autonomo,No,No,164856.0
+138,78.7,3,2,1995.0,Periferia Sud,,No,No,154418.0
+139,118.5,2,2,1964.0,Periferia Sud,Pompa di calore,No,No,208375.0
+140,46.9,8,2,1993.0,Periferia Nord,Centralizzato,No,No,70474.0
+141,98.0,1,1,1998.0,Periferia Sud,Autonomo,Si,Si,177848.0
+142,135.7,3,2,2010.0,Periferia Nord,Pompa di calore,No,No,262883.0
+143,33.7,5,3,2016.0,Periferia Sud,Centralizzato,No,Si,76604.0
+144,96.5,1,2,1955.0,Periferia Sud,Pompa di calore,,No,160704.0
+145,99.1,7,1,1958.0,Periferia Sud,Pompa di calore,Si,No,176980.0
+146,117.4,7,1,1955.0,Periferia Sud,Autonomo,No,No,200596.0
+147,46.7,0,1,2022.0,Zona Universitaria,Autonomo,No,No,115338.0
+148,,2,1,1981.0,Centro,Centralizzato,No,No,106008.0
+149,108.3,8,3,1990.0,Centro,Autonomo,No,No,263359.0
+150,100.4,4,1,1957.0,Zona Universitaria,Autonomo,Si,No,207621.0
+151,98.8,5,1,2021.0,Periferia Nord,Pompa di calore,No,No,197191.0
+152,102.1,3,1,1999.0,Centro,Centralizzato,No,Si,234420.0
+153,66.2,1,1,2011.0,Centro,Pompa di calore,Si,Si,169450.0
+154,,7,1,2011.0,Centro,Centralizzato,No,Si,231600.0
+155,100.3,5,3,1956.0,Zona Industriale,Centralizzato,No,No,170935.0
+156,65.0,4,2,1953.0,Periferia Sud,Autonomo,Si,Si,109429.0
+157,155.3,8,1,1955.0,Zona Industriale,Autonomo,,No,261405.0
+158,106.6,0,1,2007.0,Periferia Sud,Autonomo,,Si,190831.0
+159,48.3,4,2,1971.0,Periferia Nord,Autonomo,No,Si,121531.0
+160,113.0,5,2,1975.0,Periferia Nord,Pompa di calore,Si,No,229667.0
+161,55.9,4,1,1952.0,Periferia Sud,Autonomo,No,No,71528.0
+162,117.5,5,3,1990.0,Centro,Centralizzato,No,Si,252143.0
+163,130.6,5,2,2009.0,Zona Universitaria,Autonomo,No,No,267423.0
+164,61.3,6,2,1963.0,Zona Universitaria,Autonomo,No,Si,126410.0
+165,123.7,3,2,1961.0,Periferia Nord,Centralizzato,No,No,226812.0
+166,,7,1,1961.0,Zona Industriale,Autonomo,No,No,177587.0
+167,118.8,6,2,1962.0,Zona Universitaria,Autonomo,No,Si,240276.0
+168,156.4,8,2,1974.0,Periferia Sud,Autonomo,No,No,299404.0
+169,81.4,6,3,1994.0,Centro,Autonomo,,No,232513.0
+170,63.6,2,2,1968.0,Periferia Nord,Pompa di calore,No,No,101147.0
+171,58.9,2,2,2004.0,Periferia Sud,Autonomo,No,Si,120879.0
+172,61.4,7,2,1994.0,Centro,Autonomo,No,Si,159634.0
+173,87.3,4,1,1957.0,Centro,Centralizzato,No,No,212872.0
+174,101.9,3,3,2002.0,Zona Universitaria,Autonomo,No,Si,187480.0
+175,99.7,7,1,2004.0,Centro,Pompa di calore,No,No,199778.0
+176,119.0,5,1,1981.0,Periferia Sud,Centralizzato,No,No,221670.0
+177,90.5,1,1,2000.0,Zona Industriale,Centralizzato,No,No,162394.0
+178,140.9,3,1,1993.0,Zona Universitaria,Centralizzato,No,Si,283719.0
+179,80.7,3,2,2019.0,Periferia Nord,Autonomo,,Si,157545.0
+180,185.2,5,2,1967.0,Zona Universitaria,Centralizzato,Si,No,377656.0
+181,111.9,5,3,1971.0,Centro,Autonomo,Si,Si,238848.0
+182,60.0,0,1,1986.0,Centro,Pompa di calore,No,Si,164512.0
+183,52.5,7,3,2005.0,Periferia Sud,Autonomo,Si,Si,107112.0
+184,106.9,5,1,2008.0,Periferia Nord,Centralizzato,Si,No,203143.0
+185,82.2,2,1,1952.0,Periferia Nord,Centralizzato,No,No,152249.0
+186,115.0,8,1,1977.0,Periferia Sud,Autonomo,Si,Si,191207.0
+187,106.6,1,2,1984.0,Centro,Autonomo,Si,Si,259715.0
+188,87.5,7,2,2010.0,Centro,Centralizzato,,Si,214731.0
+189,60.4,2,1,2003.0,Periferia Nord,Pompa di calore,Si,No,120779.0
+190,37.0,4,1,2012.0,Zona Universitaria,Autonomo,No,No,109733.0
+191,74.4,5,3,1956.0,Periferia Sud,Pompa di calore,No,No,133423.0
+192,120.0,5,1,,Periferia Nord,,,No,244912.0
+193,97.5,3,1,1980.0,Periferia Nord,Pompa di calore,Si,No,204708.0
+194,46.4,2,1,2007.0,Centro,Autonomo,No,No,119886.0
+195,96.1,3,1,2010.0,Centro,Centralizzato,No,No,242121.0
+196,103.5,0,3,1973.0,Zona Universitaria,Autonomo,No,Si,183891.0
+197,59.1,3,1,,Periferia Nord,,No,Si,113524.0
+198,95.4,0,3,1986.0,Centro,Centralizzato,No,Si,206191.0
+199,92.0,0,1,1953.0,Periferia Sud,Autonomo,No,Si,166739.0
+200,50.0,5,2,1969.0,Periferia Sud,Centralizzato,No,No,110207.0
+201,102.5,4,1,2009.0,Periferia Sud,Autonomo,No,No,225461.0
+202,1096.0,3,2,1973.0,Centro,,No,Si,264099.0
+203,127.9,2,3,1999.0,Centro,,,No,287533.0
+204,126.9,0,1,1998.0,Centro,Centralizzato,Si,No,252694.0
+205,41.8,5,2,,Centro,Autonomo,,Si,140325.0
+206,57.2,1,2,1985.0,Periferia Sud,Centralizzato,Si,Si,108149.0
+207,108.0,7,1,2015.0,Zona Universitaria,Autonomo,Si,No,248767.0
+208,108.0,4,2,1983.0,Zona Universitaria,Autonomo,Si,No,186904.0
+209,108.0,6,1,1985.0,Zona Universitaria,Pompa di calore,No,Si,247821.0
+210,224.8,1,1,,Periferia Nord,Autonomo,No,Si,406720.0
+211,110.0,7,2,1988.0,Periferia Sud,Autonomo,Si,No,201805.0
+212,129.7,1,2,1991.0,Periferia Nord,,Si,Si,257370.0
+213,123.4,3,2,2007.0,Periferia Sud,Autonomo,,No,257281.0
+214,112.8,0,3,1961.0,Periferia Nord,Autonomo,No,No,215155.0
+215,79.0,4,1,1952.0,Centro,Pompa di calore,No,Si,148426.0
+216,116.6,8,2,1967.0,Periferia Nord,Autonomo,No,No,221672.0
+217,63.0,0,3,1989.0,Zona Industriale,Pompa di calore,No,No,122791.0
+218,81.7,8,2,1970.0,Centro,,Si,Si,206610.0
+219,73.0,7,1,1964.0,Centro,Pompa di calore,No,No,169852.0
+220,92.9,5,2,1975.0,Periferia Nord,Centralizzato,No,No,200945.0
+221,171.0,6,1,1957.0,Zona Universitaria,Autonomo,Si,No,331090.0
+222,,2,2,1991.0,Periferia Sud,Autonomo,No,Si,65925.0
+223,114.0,0,3,1993.0,Periferia Sud,Pompa di calore,Si,No,214040.0
+224,33.6,4,1,1963.0,Centro,Pompa di calore,No,No,88869.0
+225,73.5,1,3,1951.0,Periferia Sud,Centralizzato,No,Si,110701.0
+226,128.1,4,1,1986.0,Periferia Nord,Autonomo,No,Si,234589.0
+227,92.2,7,1,2018.0,Zona Universitaria,Autonomo,No,Si,211991.0
+228,52.3,8,3,1987.0,Periferia Sud,Autonomo,No,No,116279.0
+229,65.0,1,1,1990.0,Centro,Centralizzato,Si,Si,163283.0
+230,113.8,2,2,2011.0,Centro,Centralizzato,Si,Si,276908.0
+231,64.4,2,1,2009.0,Centro,Pompa di calore,No,No,168312.0
+232,97.6,0,2,1963.0,Periferia Nord,Centralizzato,No,Si,185738.0
+233,91.6,7,1,1951.0,Periferia Nord,Autonomo,Si,Si,146413.0
+234,,5,1,2019.0,Periferia Sud,Centralizzato,No,Si,130422.0
+235,165.0,7,2,1966.0,Periferia Nord,Centralizzato,Si,Si,337299.0
+236,112.2,8,3,1977.0,Periferia Nord,Centralizzato,No,Si,230717.0
+237,19.1,4,3,2015.0,Centro,Centralizzato,Si,No,130431.0
+238,96.5,2,1,1984.0,Centro,Pompa di calore,No,Si,202153.0
+239,,4,2,1954.0,Zona Universitaria,Pompa di calore,No,Si,140049.0
+240,119.8,4,2,2014.0,Centro,Autonomo,Si,No,269200.0
+241,62.3,4,2,1989.0,Periferia Sud,Autonomo,No,No,132820.0
+242,86.0,2,3,2005.0,Zona Universitaria,Centralizzato,No,No,204825.0
+243,107.7,3,1,1985.0,Periferia Sud,Autonomo,Si,No,203997.0
+244,120.3,8,3,1994.0,Zona Universitaria,Autonomo,Si,Si,274468.0
+245,48.0,8,3,1972.0,Periferia Nord,Autonomo,Si,No,111902.0
+246,78.3,1,2,1996.0,Zona Industriale,Centralizzato,Si,No,127482.0
+247,73.4,7,1,1980.0,Centro,Autonomo,No,Si,151347.0
+248,67.1,7,2,1960.0,Centro,Centralizzato,No,No,177957.0
+249,151.8,6,1,1959.0,Periferia Sud,,No,Si,273623.0
+250,1042.0,7,1,2016.0,Zona Industriale,Autonomo,Si,No,182941.0
+251,45.9,2,1,1963.0,Zona Universitaria,Autonomo,Si,Si,87758.0
+252,122.1,5,2,1959.0,Centro,Autonomo,Si,No,263527.0
+253,164.3,0,3,1950.0,Periferia Nord,Pompa di calore,No,No,299296.0
+254,126.1,6,1,1954.0,Zona Industriale,Autonomo,No,No,195359.0
+255,36.8,0,1,1969.0,Periferia Nord,Autonomo,Si,Si,66634.0
+256,73.1,8,2,1957.0,Zona Universitaria,Autonomo,No,No,162042.0
+257,134.3,0,3,1992.0,Zona Universitaria,Pompa di calore,No,No,259881.0
+258,65.2,0,1,1950.0,Periferia Nord,Centralizzato,No,No,102449.0
+259,105.5,6,2,2006.0,Periferia Nord,Pompa di calore,No,No,211731.0
+260,117.1,1,1,2013.0,Periferia Nord,Pompa di calore,No,No,222352.0
+261,57.6,4,3,1977.0,Centro,Autonomo,No,No,157957.0
+262,87.9,7,1,1986.0,Zona Universitaria,Pompa di calore,No,Si,190516.0
+263,-23.4,7,1,1996.0,Periferia Nord,Autonomo,No,No,30000.0
+264,54.1,2,3,1986.0,Zona Universitaria,Pompa di calore,Si,Si,106154.0
+265,81.2,6,1,1998.0,Centro,Centralizzato,No,No,198564.0
+266,46.3,2,1,1993.0,Zona Industriale,Pompa di calore,Si,No,56300.0
+267,147.1,5,1,2005.0,Periferia Nord,Autonomo,No,No,293144.0
+268,39.9,5,2,1977.0,Centro,Autonomo,Si,Si,139067.0
+269,74.6,2,2,1955.0,Centro,Autonomo,,No,176386.0
+270,94.6,6,2,2010.0,Zona Universitaria,Autonomo,No,No,190300.0
+271,140.4,2,1,1969.0,Periferia Sud,Autonomo,No,No,263339.0
+272,39.7,7,3,1951.0,Zona Universitaria,Autonomo,Si,No,102344.0
+273,130.7,3,3,2022.0,Centro,Autonomo,No,Si,281156.0
+274,90.4,0,3,1986.0,Centro,Centralizzato,No,No,194642.0
+275,55.6,3,2,1969.0,Periferia Sud,Pompa di calore,No,No,127134.0
+276,106.2,6,2,1975.0,Periferia Nord,Centralizzato,Si,Si,227027.0
+277,97.0,3,2,1978.0,Periferia Nord,Autonomo,No,Si,148843.0
+278,69.0,5,3,1950.0,Zona Industriale,Centralizzato,Si,No,93433.0
+279,92.4,8,1,1984.0,Zona Industriale,Autonomo,Si,No,171733.0
+280,76.5,0,1,2019.0,Zona Industriale,,No,No,124223.0
+281,94.0,4,2,2008.0,Zona Universitaria,Autonomo,No,No,212228.0
+282,113.2,6,2,2018.0,Periferia Nord,Centralizzato,No,Si,231331.0
+283,145.5,0,2,1982.0,Periferia Nord,,No,Si,280417.0
+284,46.7,3,2,2000.0,Periferia Sud,Pompa di calore,No,Si,97748.0
+285,164.7,5,3,1961.0,Zona Universitaria,Centralizzato,No,Si,317796.0
+286,21.7,1,3,1969.0,Centro,Pompa di calore,No,Si,104241.0
+287,84.7,4,2,2002.0,Periferia Nord,,,Si,176191.0
+288,110.6,0,3,1992.0,Centro,Centralizzato,Si,No,263566.0
+289,99.8,5,1,1999.0,Periferia Sud,Centralizzato,,No,190302.0
+290,68.2,5,2,1978.0,Zona Universitaria,Centralizzato,No,No,140465.0
+291,82.7,3,1,2006.0,Zona Universitaria,Centralizzato,Si,No,195386.0
+292,72.7,7,1,1988.0,Centro,Centralizzato,No,No,184185.0
+293,69.4,3,1,2005.0,Zona Industriale,Centralizzato,No,Si,106694.0
+294,119.7,7,1,1992.0,Periferia Sud,Autonomo,No,Si,243835.0
+295,102.5,7,1,1999.0,Centro,Autonomo,,Si,215988.0
+296,65.7,4,1,1972.0,Periferia Nord,Autonomo,,Si,155504.0
+297,121.5,3,2,1993.0,Periferia Nord,Autonomo,No,No,232513.0
+298,100.8,1,3,1987.0,Centro,Autonomo,No,Si,217120.0
+299,118.5,2,3,1972.0,Zona Industriale,Centralizzato,,Si,233589.0
+300,112.0,2,1,1994.0,Periferia Nord,Autonomo,No,Si,201952.0
+301,61.0,3,1,2001.0,Zona Universitaria,Pompa di calore,Si,No,134349.0
+302,70.4,3,2,1999.0,Periferia Nord,Autonomo,Si,No,155785.0
+303,116.2,4,2,1957.0,Centro,Autonomo,No,No,269123.0
+304,111.4,3,1,1950.0,Periferia Nord,Centralizzato,,Si,200617.0
+305,89.3,7,1,1957.0,Centro,Centralizzato,No,No,189730.0
+306,94.1,5,3,1978.0,Periferia Nord,Autonomo,No,No,195665.0
+307,134.7,5,2,1954.0,Zona Industriale,Pompa di calore,Si,No,218970.0
+308,69.3,7,1,1996.0,Periferia Sud,Pompa di calore,Si,No,138875.0
+309,109.1,6,2,1983.0,Periferia Sud,Autonomo,No,Si,233802.0
+310,82.9,7,1,2014.0,Centro,Autonomo,Si,No,216359.0
+311,82.4,1,1,2004.0,Centro,,Si,No,195220.0
+312,128.5,8,1,,Centro,Centralizzato,Si,Si,293077.0
+313,118.9,0,2,1979.0,Periferia Sud,Centralizzato,No,No,228971.0
+314,118.5,7,2,1966.0,Centro,Pompa di calore,,No,246532.0
+315,135.7,3,3,1975.0,Periferia Nord,Autonomo,Si,Si,263986.0
+316,90.7,3,3,1957.0,Periferia Sud,Centralizzato,No,No,210398.0
+317,113.9,4,1,1996.0,Periferia Nord,Autonomo,No,No,234112.0
+318,,7,1,2021.0,Centro,Pompa di calore,,No,192728.0
+319,101.3,4,2,1995.0,Periferia Nord,Centralizzato,Si,Si,191892.0
+320,85.4,7,3,2017.0,Zona Industriale,Centralizzato,No,No,156872.0
+321,93.4,0,1,1982.0,Periferia Sud,Autonomo,No,Si,176815.0
+322,110.8,8,2,1950.0,Periferia Nord,Autonomo,No,No,234655.0
+323,61.4,5,1,1968.0,Centro,Centralizzato,No,Si,158253.0
+324,163.2,2,2,1980.0,Zona Industriale,Centralizzato,Si,No,282217.0
+325,54.8,7,2,1963.0,Periferia Sud,Centralizzato,No,No,100478.0
+326,47.5,8,2,2002.0,Periferia Nord,Autonomo,No,No,117141.0
+327,130.5,5,3,1997.0,Zona Universitaria,Pompa di calore,Si,No,261298.0
+328,117.7,6,1,2018.0,Periferia Nord,Autonomo,No,No,203324.0
+329,111.8,0,2,2011.0,Periferia Sud,,Si,No,238192.0
+330,112.0,4,1,2015.0,Periferia Sud,Autonomo,No,Si,198113.0
+331,89.6,4,1,2013.0,Centro,Centralizzato,No,No,207408.0
+332,58.6,3,2,2019.0,Zona Industriale,Autonomo,No,Si,114625.0
+333,,5,1,2012.0,Zona Universitaria,Pompa di calore,No,No,215577.0
+334,66.3,6,1,2022.0,Periferia Sud,Centralizzato,No,Si,139897.0
+335,124.1,8,1,1982.0,Centro,Autonomo,No,No,253174.0
+336,84.9,0,3,1990.0,Centro,Autonomo,No,No,202400.0
+337,61.1,5,2,1997.0,Periferia Nord,Autonomo,No,No,120503.0
+338,78.8,6,2,1962.0,Zona Universitaria,Autonomo,No,Si,162967.0
+339,104.5,2,1,2022.0,Periferia Nord,Pompa di calore,Si,No,222280.0
+340,70.3,7,2,1980.0,Periferia Sud,Centralizzato,No,No,102079.0
+341,61.2,4,2,2017.0,Zona Universitaria,Pompa di calore,,No,139189.0
+342,98.5,8,3,1953.0,Centro,Centralizzato,Si,Si,225039.0
+343,98.6,4,1,1968.0,Periferia Sud,Centralizzato,No,No,156129.0
+344,72.3,8,1,2019.0,Centro,Autonomo,,No,197722.0
+345,73.5,3,3,1962.0,Zona Industriale,Autonomo,Si,No,101275.0
+346,98.1,8,2,1972.0,Periferia Nord,Pompa di calore,No,No,174782.0
+347,39.3,4,3,1950.0,Centro,,No,No,131606.0
+348,40.7,8,2,2003.0,Periferia Nord,Autonomo,No,Si,122769.0
+349,64.9,2,3,2020.0,Periferia Nord,Autonomo,Si,Si,146779.0
+350,82.5,3,3,1964.0,Zona Universitaria,Centralizzato,Si,Si,156039.0
+351,100.9,8,1,2014.0,Zona Universitaria,,No,Si,203337.0
+352,141.6,5,1,2020.0,Periferia Sud,Autonomo,No,No,284600.0
+353,120.0,1,3,1964.0,Centro,Centralizzato,No,No,265547.0
+354,84.4,6,3,1970.0,Centro,Pompa di calore,No,Si,207504.0
+355,89.3,1,2,1968.0,Centro,Autonomo,Si,No,206436.0
+356,54.9,1,1,2009.0,Periferia Sud,Autonomo,No,Si,103555.0
+357,89.4,0,2,1982.0,Zona Universitaria,Centralizzato,Si,No,202806.0
+358,79.9,2,1,1998.0,Periferia Nord,Pompa di calore,,No,141083.0
+359,101.3,5,2,1984.0,Centro,Autonomo,No,Si,221181.0
+360,61.0,7,3,1993.0,Periferia Sud,Centralizzato,No,Si,114548.0
+361,108.2,8,3,1960.0,Zona Universitaria,Centralizzato,,No,218760.0
+362,,6,1,2021.0,Zona Universitaria,Centralizzato,Si,Si,273500.0
+363,86.2,3,2,2015.0,Zona Universitaria,Centralizzato,No,No,191531.0
+364,104.1,5,2,1995.0,Periferia Nord,Centralizzato,No,No,207794.0
+365,114.2,4,1,1958.0,Centro,Centralizzato,,No,223874.0
+366,76.0,7,2,1952.0,Zona Universitaria,Centralizzato,Si,Si,165837.0
+367,97.8,0,2,1975.0,Periferia Sud,Centralizzato,No,No,200392.0
+368,90.4,0,1,2021.0,Periferia Nord,Centralizzato,No,No,180488.0
+369,93.4,5,3,1997.0,Zona Universitaria,Pompa di calore,Si,No,168668.0
+370,62.9,1,2,2015.0,Zona Universitaria,Autonomo,No,Si,173127.0
+371,90.9,4,3,2019.0,Periferia Sud,Pompa di calore,No,No,203624.0
+372,107.4,0,1,1977.0,Periferia Sud,Pompa di calore,No,No,216866.0
+373,,6,3,1975.0,Periferia Nord,Autonomo,Si,No,293401.0
+374,123.6,0,1,1974.0,Periferia Sud,Centralizzato,Si,Si,235138.0
+375,165.4,3,2,1961.0,Periferia Sud,Centralizzato,Si,No,302699.0
+376,63.1,8,2,1954.0,Zona Universitaria,Autonomo,No,Si,131946.0
+377,120.5,0,2,1997.0,Zona Universitaria,Autonomo,No,No,245702.0
+378,96.4,3,3,1986.0,Zona Universitaria,Autonomo,Si,No,195288.0
+379,166.6,5,2,1993.0,Centro,Autonomo,No,No,360888.0
+380,61.7,5,3,1964.0,Zona Universitaria,Pompa di calore,No,No,100458.0
+381,60.6,7,1,1992.0,Zona Universitaria,Autonomo,Si,No,133924.0
+382,69.0,0,1,1997.0,Periferia Sud,Pompa di calore,No,No,144570.0
+383,15.7,6,2,2019.0,Zona Universitaria,Centralizzato,No,Si,68475.0
+384,71.6,0,1,1995.0,Zona Universitaria,Pompa di calore,No,No,169392.0
+385,63.4,6,1,1992.0,Periferia Nord,Centralizzato,No,No,122864.0
+386,95.3,2,2,1970.0,Periferia Sud,Autonomo,Si,No,189680.0
+387,102.0,7,3,1972.0,Centro,Centralizzato,No,Si,229626.0
+388,1557.0,2,1,1996.0,Periferia Nord,Autonomo,No,No,302589.0
+389,123.3,0,2,1964.0,Periferia Sud,Centralizzato,No,No,223729.0
+390,69.8,7,1,1974.0,Zona Universitaria,Pompa di calore,No,Si,141144.0
+391,58.6,2,3,1985.0,Centro,Autonomo,No,No,122472.0
+392,107.2,1,3,2000.0,Centro,Autonomo,No,Si,247744.0
+393,43.8,0,2,1964.0,Periferia Sud,Centralizzato,No,Si,80342.0
+394,154.1,2,1,2017.0,Centro,Pompa di calore,No,Si,339011.0
+395,131.3,1,3,1970.0,Centro,Centralizzato,No,Si,309354.0
+396,73.6,1,2,1962.0,Centro,Autonomo,No,No,202205.0
+397,30.0,5,1,1968.0,Centro,Centralizzato,Si,Si,111694.0
+398,137.4,0,1,1983.0,Centro,Autonomo,Si,No,274889.0
+399,86.0,1,1,2017.0,Periferia Nord,Centralizzato,Si,Si,162928.0
+400,133.3,5,1,2001.0,Periferia Nord,,No,No,264924.0
